@@ -1,0 +1,5 @@
+D:\Мои документы\GitHub\PetSitters2.0\Petsitters.Backend\Petsitters.Domain\obj\Debug\net5.0\Petsitters.Domain.csproj.AssemblyReference.cache
+D:\Мои документы\GitHub\PetSitters2.0\Petsitters.Backend\Petsitters.Domain\obj\Debug\net5.0\Petsitters.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Мои документы\GitHub\PetSitters2.0\Petsitters.Backend\Petsitters.Domain\obj\Debug\net5.0\Petsitters.Domain.AssemblyInfoInputs.cache
+D:\Мои документы\GitHub\PetSitters2.0\Petsitters.Backend\Petsitters.Domain\obj\Debug\net5.0\Petsitters.Domain.AssemblyInfo.cs
+D:\Мои документы\GitHub\PetSitters2.0\Petsitters.Backend\Petsitters.Domain\obj\Debug\net5.0\Petsitters.Domain.csproj.CoreCompileInputs.cache

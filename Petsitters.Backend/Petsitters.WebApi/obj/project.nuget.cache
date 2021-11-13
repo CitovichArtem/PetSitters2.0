@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "WzTL/aIEC6yxQssrAIRyQHZ5hERqYk+TUKS7dk48onzg+VxGXWKd3nlca5x5GqzIMg7ESKZv/HcCJf709FWUAg==",
+  "success": true,
+  "projectFilePath": "D:\\Мои документы\\GitHub\\PetSitters2.0\\Petsitters.Backend\\Petsitters.WebApi\\Petsitters.WebApi.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\USER\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
