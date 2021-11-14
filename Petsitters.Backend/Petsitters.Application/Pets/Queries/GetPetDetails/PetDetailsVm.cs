@@ -5,7 +5,7 @@ using Petsitters.Application.Common.Mappings;
 
 namespace Petsitters.Application.Pets.Queries.GetPetDetails
 {
-    public class PetDetailsVm: IMapWith<Pet>
+    public class PetDetailsVm : IMapWith<Pet>
     {
         public int Id { get; set; }
         public string Name { get; set; }

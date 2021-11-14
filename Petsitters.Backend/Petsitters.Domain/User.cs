@@ -9,10 +9,9 @@ namespace Petsitters.Domain
         
         public int Id { get; set; }
         public string Name { get; set; }
-        [InverseProperty("Owner")]
-        public List<Pet> OwneredPets { get; set; }
         [InverseProperty("Worker")]
-        public List<Pet> WorkedPets { get; set; }
-
+        public List<Feedback> FeedbacksAboutMe { get; set; }
+        [InverseProperty("Owner")]
+        public List<Feedback> FeedbacksLeftByMe { get; set; }
     }
 }

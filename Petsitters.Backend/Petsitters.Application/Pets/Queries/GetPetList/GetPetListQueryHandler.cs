@@ -9,7 +9,7 @@ using Petsitters.Application.Interfaces;
 
 namespace Petsitters.Application.Pets.Queries.GetPetList
 {
-    public class GetPetListQueryHandler 
+    public class GetPetListQueryHandler
         : IRequestHandler<GetPetListQuery, PetListVm>
     {
         private readonly IAppDbContext _dbContext;
