@@ -1,0 +1,17 @@
+D:\Мои документы\GitHub\PetSitters2.0\Petsitters.Backend\Petsitters.Persistence\obj\Debug\net5.0\Petsitters.Persistence.csproj.AssemblyReference.cache
+D:\Мои документы\GitHub\PetSitters2.0\Petsitters.Backend\Petsitters.Persistence\obj\Debug\net5.0\Petsitters.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+D:\Мои документы\GitHub\PetSitters2.0\Petsitters.Backend\Petsitters.Persistence\obj\Debug\net5.0\Petsitters.Persistence.AssemblyInfoInputs.cache
+D:\Мои документы\GitHub\PetSitters2.0\Petsitters.Backend\Petsitters.Persistence\obj\Debug\net5.0\Petsitters.Persistence.AssemblyInfo.cs
+D:\Мои документы\GitHub\PetSitters2.0\Petsitters.Backend\Petsitters.Persistence\obj\Debug\net5.0\Petsitters.Persistence.csproj.CoreCompileInputs.cache
+D:\Мои документы\GitHub\PetSitters2.0\Petsitters.Backend\Petsitters.Persistence\bin\Debug\net5.0\Petsitters.Persistence.deps.json
+D:\Мои документы\GitHub\PetSitters2.0\Petsitters.Backend\Petsitters.Persistence\bin\Debug\net5.0\Petsitters.Persistence.dll
+D:\Мои документы\GitHub\PetSitters2.0\Petsitters.Backend\Petsitters.Persistence\bin\Debug\net5.0\ref\Petsitters.Persistence.dll
+D:\Мои документы\GitHub\PetSitters2.0\Petsitters.Backend\Petsitters.Persistence\bin\Debug\net5.0\Petsitters.Persistence.pdb
+D:\Мои документы\GitHub\PetSitters2.0\Petsitters.Backend\Petsitters.Persistence\bin\Debug\net5.0\Petsitters.Application.dll
+D:\Мои документы\GitHub\PetSitters2.0\Petsitters.Backend\Petsitters.Persistence\bin\Debug\net5.0\Petsitters.Domain.dll
+D:\Мои документы\GitHub\PetSitters2.0\Petsitters.Backend\Petsitters.Persistence\bin\Debug\net5.0\Petsitters.Application.pdb
+D:\Мои документы\GitHub\PetSitters2.0\Petsitters.Backend\Petsitters.Persistence\bin\Debug\net5.0\Petsitters.Domain.pdb
+D:\Мои документы\GitHub\PetSitters2.0\Petsitters.Backend\Petsitters.Persistence\obj\Debug\net5.0\Petsitters.Persistence.csproj.CopyComplete
+D:\Мои документы\GitHub\PetSitters2.0\Petsitters.Backend\Petsitters.Persistence\obj\Debug\net5.0\Petsitters.Persistence.dll
+D:\Мои документы\GitHub\PetSitters2.0\Petsitters.Backend\Petsitters.Persistence\obj\Debug\net5.0\ref\Petsitters.Persistence.dll
+D:\Мои документы\GitHub\PetSitters2.0\Petsitters.Backend\Petsitters.Persistence\obj\Debug\net5.0\Petsitters.Persistence.pdb

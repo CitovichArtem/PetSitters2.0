@@ -3,3 +3,10 @@ D:\Мои документы\GitHub\PetSitters2.0\Petsitters.Backend\Petsitters.
 D:\Мои документы\GitHub\PetSitters2.0\Petsitters.Backend\Petsitters.Domain\obj\Debug\net5.0\Petsitters.Domain.AssemblyInfoInputs.cache
 D:\Мои документы\GitHub\PetSitters2.0\Petsitters.Backend\Petsitters.Domain\obj\Debug\net5.0\Petsitters.Domain.AssemblyInfo.cs
 D:\Мои документы\GitHub\PetSitters2.0\Petsitters.Backend\Petsitters.Domain\obj\Debug\net5.0\Petsitters.Domain.csproj.CoreCompileInputs.cache
+D:\Мои документы\GitHub\PetSitters2.0\Petsitters.Backend\Petsitters.Domain\bin\Debug\net5.0\Petsitters.Domain.deps.json
+D:\Мои документы\GitHub\PetSitters2.0\Petsitters.Backend\Petsitters.Domain\bin\Debug\net5.0\Petsitters.Domain.dll
+D:\Мои документы\GitHub\PetSitters2.0\Petsitters.Backend\Petsitters.Domain\bin\Debug\net5.0\ref\Petsitters.Domain.dll
+D:\Мои документы\GitHub\PetSitters2.0\Petsitters.Backend\Petsitters.Domain\bin\Debug\net5.0\Petsitters.Domain.pdb
+D:\Мои документы\GitHub\PetSitters2.0\Petsitters.Backend\Petsitters.Domain\obj\Debug\net5.0\Petsitters.Domain.dll
+D:\Мои документы\GitHub\PetSitters2.0\Petsitters.Backend\Petsitters.Domain\obj\Debug\net5.0\ref\Petsitters.Domain.dll
+D:\Мои документы\GitHub\PetSitters2.0\Petsitters.Backend\Petsitters.Domain\obj\Debug\net5.0\Petsitters.Domain.pdb
