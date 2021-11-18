@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Petsitters.Domain
 {
@@ -9,7 +10,6 @@ namespace Petsitters.Domain
         public string Details { get; set; }
         public int UserId { get; set; }
         public User Worker { get; set; }
-        public int BidId { get; set; }
-        public Bid Bid { get; set; }
+        public List<Bid> Bids { get; set; }
     }
 }

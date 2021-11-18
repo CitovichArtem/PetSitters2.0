@@ -9,6 +9,6 @@ namespace Petsitters.Application.MyServices.Queries.GetMyServiceList
     public class GetMyServiceListQuery
     {
         public int UserId { get; set; }
-        public int BidId { get; set; }
+        public List<int> BidId { get; set; }
     }
 }

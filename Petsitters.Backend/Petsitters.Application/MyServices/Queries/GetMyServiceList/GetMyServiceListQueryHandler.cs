@@ -23,7 +23,7 @@
 //            CancellationToken cancellationToken)
 //        {
 //            var myServicesQuery = await _dbContext.MyServices
-//                .Where(myServices => myServices.UserId == request.UserId && myServices.BidId == request.BidId)
+//                .Where(myServices => myServices.UserId == request.UserId )
 //                .ProjectTo<MyServiceLookupDto>(_mapper.ConfigurationProvider)
 //                .ToListAsync(cancellationToken);
 

@@ -11,7 +11,10 @@ D:\Мои документы\GitHub\PetSitters2.0\Petsitters.Backend\Petsitters.
 D:\Мои документы\GitHub\PetSitters2.0\Petsitters.Backend\Petsitters.Persistence\bin\Debug\net5.0\Petsitters.Domain.dll
 D:\Мои документы\GitHub\PetSitters2.0\Petsitters.Backend\Petsitters.Persistence\bin\Debug\net5.0\Petsitters.Application.pdb
 D:\Мои документы\GitHub\PetSitters2.0\Petsitters.Backend\Petsitters.Persistence\bin\Debug\net5.0\Petsitters.Domain.pdb
-D:\Мои документы\GitHub\PetSitters2.0\Petsitters.Backend\Petsitters.Persistence\obj\Debug\net5.0\Petsitters.Persistence.csproj.CopyComplete
 D:\Мои документы\GitHub\PetSitters2.0\Petsitters.Backend\Petsitters.Persistence\obj\Debug\net5.0\Petsitters.Persistence.dll
 D:\Мои документы\GitHub\PetSitters2.0\Petsitters.Backend\Petsitters.Persistence\obj\Debug\net5.0\ref\Petsitters.Persistence.dll
 D:\Мои документы\GitHub\PetSitters2.0\Petsitters.Backend\Petsitters.Persistence\obj\Debug\net5.0\Petsitters.Persistence.pdb
+D:\Мои документы\GitHub\PetSitters2.0\Petsitters.Backend\Petsitters.Persistence\bin\Debug\net5.0\Petsitters.Persistence.runtimeconfig.json
+D:\Мои документы\GitHub\PetSitters2.0\Petsitters.Backend\Petsitters.Persistence\bin\Debug\net5.0\Petsitters.Persistence.runtimeconfig.dev.json
+D:\Мои документы\GitHub\PetSitters2.0\Petsitters.Backend\Petsitters.Persistence\obj\Debug\net5.0\Petsitters.Persistence.genruntimeconfig.cache
+D:\Мои документы\GitHub\PetSitters2.0\Petsitters.Backend\Petsitters.Persistence\obj\Debug\net5.0\Petsitters.Persistence.csproj.CopyComplete

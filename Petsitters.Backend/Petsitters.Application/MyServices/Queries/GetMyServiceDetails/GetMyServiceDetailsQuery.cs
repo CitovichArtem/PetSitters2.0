@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using MediatR;
 
 namespace Petsitters.Application.MyServices.Queries.GetMyServiceDetails
@@ -7,6 +8,6 @@ namespace Petsitters.Application.MyServices.Queries.GetMyServiceDetails
     {
         public int UserId { get; set; }
         public int Id { get; set; }
-        public int BidId { get; set; }
+        public List<int> BidId { get; set; }
     }
 }

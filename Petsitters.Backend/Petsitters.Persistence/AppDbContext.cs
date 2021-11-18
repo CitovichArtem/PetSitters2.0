@@ -1,6 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Petsitters.Application.Interfaces;
 using Petsitters.Domain;
+using Microsoft.EntityFrameworkCore.Migrations;
+using Microsoft.EntityFrameworkCore.Design;
 using Petsitters.Persistence.EntityTypeConfigurations;
 
 namespace Petsitters.Persistence

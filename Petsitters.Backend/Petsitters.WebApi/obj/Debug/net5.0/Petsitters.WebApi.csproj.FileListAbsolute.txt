@@ -57,3 +57,6 @@ D:\Мои документы\GitHub\PetSitters2.0\Petsitters.Backend\Petsitters.
 D:\Мои документы\GitHub\PetSitters2.0\Petsitters.Backend\Petsitters.WebApi\obj\Debug\net5.0\ref\Petsitters.WebApi.dll
 D:\Мои документы\GitHub\PetSitters2.0\Petsitters.Backend\Petsitters.WebApi\obj\Debug\net5.0\Petsitters.WebApi.pdb
 D:\Мои документы\GitHub\PetSitters2.0\Petsitters.Backend\Petsitters.WebApi\obj\Debug\net5.0\Petsitters.WebApi.genruntimeconfig.cache
+D:\Мои документы\GitHub\PetSitters2.0\Petsitters.Backend\Petsitters.WebApi\obj\Debug\net5.0\Petsitters.WebApi.csproj.CopyComplete
+D:\Мои документы\GitHub\PetSitters2.0\Petsitters.Backend\Petsitters.WebApi\bin\Debug\net5.0\Humanizer.dll
+D:\Мои документы\GitHub\PetSitters2.0\Petsitters.Backend\Petsitters.WebApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll

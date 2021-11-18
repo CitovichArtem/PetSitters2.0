@@ -18,7 +18,7 @@ namespace Petsitters.Application.MyServices.Commands.CreateMyService
             var myService = new MyService
             {
                 UserId = request.UserId,
-                BidId = request.BidId,
+
                 Name = request.Name,
                 Details = request.Details,
                 Id = new int()
