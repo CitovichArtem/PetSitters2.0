@@ -1248,25 +1248,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\USER\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\User\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Мои документы\\GitHub\\PetSitters2.0\\Petsitters.Backend\\Petsitters.WebApi\\Petsitters.WebApi.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Source\\Repos\\PetSitters2.0\\Petsitters.Backend\\Petsitters.WebApi\\Petsitters.WebApi.csproj",
       "projectName": "Petsitters.WebApi",
-      "projectPath": "D:\\Мои документы\\GitHub\\PetSitters2.0\\Petsitters.Backend\\Petsitters.WebApi\\Petsitters.WebApi.csproj",
-      "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-      "outputPath": "D:\\Мои документы\\GitHub\\PetSitters2.0\\Petsitters.Backend\\Petsitters.WebApi\\obj\\",
+      "projectPath": "C:\\Users\\User\\Source\\Repos\\PetSitters2.0\\Petsitters.Backend\\Petsitters.WebApi\\Petsitters.WebApi.csproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\User\\Source\\Repos\\PetSitters2.0\\Petsitters.Backend\\Petsitters.WebApi\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -1279,11 +1274,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\Мои документы\\GitHub\\PetSitters2.0\\Petsitters.Backend\\Petsitters.Application\\Petsitters.Application.csproj": {
-              "projectPath": "D:\\Мои документы\\GitHub\\PetSitters2.0\\Petsitters.Backend\\Petsitters.Application\\Petsitters.Application.csproj"
+            "C:\\Users\\User\\Source\\Repos\\PetSitters2.0\\Petsitters.Backend\\Petsitters.Application\\Petsitters.Application.csproj": {
+              "projectPath": "C:\\Users\\User\\Source\\Repos\\PetSitters2.0\\Petsitters.Backend\\Petsitters.Application\\Petsitters.Application.csproj"
             },
-            "D:\\Мои документы\\GitHub\\PetSitters2.0\\Petsitters.Backend\\Petsitters.Persistence\\Petsitters.Persistence.csproj": {
-              "projectPath": "D:\\Мои документы\\GitHub\\PetSitters2.0\\Petsitters.Backend\\Petsitters.Persistence\\Petsitters.Persistence.csproj"
+            "C:\\Users\\User\\Source\\Repos\\PetSitters2.0\\Petsitters.Backend\\Petsitters.Persistence\\Petsitters.Persistence.csproj": {
+              "projectPath": "C:\\Users\\User\\Source\\Repos\\PetSitters2.0\\Petsitters.Backend\\Petsitters.Persistence\\Petsitters.Persistence.csproj"
             }
           }
         }
@@ -1313,20 +1308,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[5.0.0, 5.0.0]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[5.0.0, 5.0.0]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[5.0.0, 5.0.0]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -1335,7 +1316,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -11,6 +11,7 @@ namespace Petsitters.Persistence.EntityTypeConfigurations
             builder.HasKey(myservice => myservice.Id);
             builder.HasIndex(myservice => myservice.Id).IsUnique();
             builder.Property(myservice => myservice.Name).HasMaxLength(250);
+            builder.HasOne(myservice => myservice.Bid).WithOne(bid => bid.MyService);
         }
     }
 }

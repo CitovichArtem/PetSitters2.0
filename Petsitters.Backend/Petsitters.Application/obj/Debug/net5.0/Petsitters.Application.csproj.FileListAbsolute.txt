@@ -13,3 +13,18 @@ D:\Мои документы\GitHub\PetSitters2.0\Petsitters.Backend\Petsitters.
 D:\Мои документы\GitHub\PetSitters2.0\Petsitters.Backend\Petsitters.Application\obj\Debug\net5.0\Petsitters.Application.dll
 D:\Мои документы\GitHub\PetSitters2.0\Petsitters.Backend\Petsitters.Application\obj\Debug\net5.0\ref\Petsitters.Application.dll
 D:\Мои документы\GitHub\PetSitters2.0\Petsitters.Backend\Petsitters.Application\obj\Debug\net5.0\Petsitters.Application.pdb
+C:\Users\User\Source\Repos\PetSitters2.0\Petsitters.Backend\Petsitters.Application\bin\Debug\net5.0\Petsitters.Application.deps.json
+C:\Users\User\Source\Repos\PetSitters2.0\Petsitters.Backend\Petsitters.Application\bin\Debug\net5.0\Petsitters.Application.dll
+C:\Users\User\Source\Repos\PetSitters2.0\Petsitters.Backend\Petsitters.Application\bin\Debug\net5.0\ref\Petsitters.Application.dll
+C:\Users\User\Source\Repos\PetSitters2.0\Petsitters.Backend\Petsitters.Application\bin\Debug\net5.0\Petsitters.Application.pdb
+C:\Users\User\Source\Repos\PetSitters2.0\Petsitters.Backend\Petsitters.Application\bin\Debug\net5.0\Petsitters.Domain.dll
+C:\Users\User\Source\Repos\PetSitters2.0\Petsitters.Backend\Petsitters.Application\bin\Debug\net5.0\Petsitters.Domain.pdb
+C:\Users\User\Source\Repos\PetSitters2.0\Petsitters.Backend\Petsitters.Application\obj\Debug\net5.0\Petsitters.Application.csproj.AssemblyReference.cache
+C:\Users\User\Source\Repos\PetSitters2.0\Petsitters.Backend\Petsitters.Application\obj\Debug\net5.0\Petsitters.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Source\Repos\PetSitters2.0\Petsitters.Backend\Petsitters.Application\obj\Debug\net5.0\Petsitters.Application.AssemblyInfoInputs.cache
+C:\Users\User\Source\Repos\PetSitters2.0\Petsitters.Backend\Petsitters.Application\obj\Debug\net5.0\Petsitters.Application.AssemblyInfo.cs
+C:\Users\User\Source\Repos\PetSitters2.0\Petsitters.Backend\Petsitters.Application\obj\Debug\net5.0\Petsitters.Application.csproj.CoreCompileInputs.cache
+C:\Users\User\Source\Repos\PetSitters2.0\Petsitters.Backend\Petsitters.Application\obj\Debug\net5.0\Petsitters.Application.csproj.CopyComplete
+C:\Users\User\Source\Repos\PetSitters2.0\Petsitters.Backend\Petsitters.Application\obj\Debug\net5.0\Petsitters.Application.dll
+C:\Users\User\Source\Repos\PetSitters2.0\Petsitters.Backend\Petsitters.Application\obj\Debug\net5.0\ref\Petsitters.Application.dll
+C:\Users\User\Source\Repos\PetSitters2.0\Petsitters.Backend\Petsitters.Application\obj\Debug\net5.0\Petsitters.Application.pdb

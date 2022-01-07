@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "a66fba8d-0b4f-44aa-ba7c-9470b66fc4a9": {
+      "ProjectGuid": "a66fba8d-0b4f-44aa-ba7c-9470b66fc4a9",
+      "DisplayName": "Petsitters.Application",
+      "ColorIndex": 0
+    },
+    "0588d117-0faa-4fbf-ba53-900ddadaa1b5": {
+      "ProjectGuid": "0588d117-0faa-4fbf-ba53-900ddadaa1b5",
+      "DisplayName": "Petsitters.Persistence",
+      "ColorIndex": 1
+    },
+    "0e624223-55b1-4671-b368-b9cd4bdee383": {
+      "ProjectGuid": "0e624223-55b1-4671-b368-b9cd4bdee383",
+      "DisplayName": "Petsitters.WebApi",
+      "ColorIndex": 2
+    },
+    "9af7e265-1563-4cb8-96d5-7588b6c359c9": {
+      "ProjectGuid": "9af7e265-1563-4cb8-96d5-7588b6c359c9",
+      "DisplayName": "Petsitters.Domain",
+      "ColorIndex": 3
+    }
+  },
+  "NextColorIndex": 4
+}

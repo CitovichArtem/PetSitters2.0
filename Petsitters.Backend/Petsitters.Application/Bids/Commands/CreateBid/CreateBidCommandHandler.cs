@@ -18,6 +18,7 @@ namespace Petsitters.Application.Bids.Commands.CreateBid
         {
             var bid = new Bid
             {
+                Name = request.Name,
                 PetId = request.PetId,
                 MyServiceId = request.MyServiceID,
                 CreationDate = DateTime.Now,

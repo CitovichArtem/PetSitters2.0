@@ -15,3 +15,20 @@ D:\Мои документы\GitHub\PetSitters2.0\Petsitters.Backend\Petsitters.
 D:\Мои документы\GitHub\PetSitters2.0\Petsitters.Backend\Petsitters.Persistence\obj\Debug\net5.0\Petsitters.Persistence.dll
 D:\Мои документы\GitHub\PetSitters2.0\Petsitters.Backend\Petsitters.Persistence\obj\Debug\net5.0\ref\Petsitters.Persistence.dll
 D:\Мои документы\GitHub\PetSitters2.0\Petsitters.Backend\Petsitters.Persistence\obj\Debug\net5.0\Petsitters.Persistence.pdb
+C:\Users\User\Source\Repos\PetSitters2.0\Petsitters.Backend\Petsitters.Persistence\bin\Debug\net5.0\Petsitters.Persistence.deps.json
+C:\Users\User\Source\Repos\PetSitters2.0\Petsitters.Backend\Petsitters.Persistence\bin\Debug\net5.0\Petsitters.Persistence.dll
+C:\Users\User\Source\Repos\PetSitters2.0\Petsitters.Backend\Petsitters.Persistence\bin\Debug\net5.0\ref\Petsitters.Persistence.dll
+C:\Users\User\Source\Repos\PetSitters2.0\Petsitters.Backend\Petsitters.Persistence\bin\Debug\net5.0\Petsitters.Persistence.pdb
+C:\Users\User\Source\Repos\PetSitters2.0\Petsitters.Backend\Petsitters.Persistence\bin\Debug\net5.0\Petsitters.Application.dll
+C:\Users\User\Source\Repos\PetSitters2.0\Petsitters.Backend\Petsitters.Persistence\bin\Debug\net5.0\Petsitters.Domain.dll
+C:\Users\User\Source\Repos\PetSitters2.0\Petsitters.Backend\Petsitters.Persistence\bin\Debug\net5.0\Petsitters.Application.pdb
+C:\Users\User\Source\Repos\PetSitters2.0\Petsitters.Backend\Petsitters.Persistence\bin\Debug\net5.0\Petsitters.Domain.pdb
+C:\Users\User\Source\Repos\PetSitters2.0\Petsitters.Backend\Petsitters.Persistence\obj\Debug\net5.0\Petsitters.Persistence.csproj.AssemblyReference.cache
+C:\Users\User\Source\Repos\PetSitters2.0\Petsitters.Backend\Petsitters.Persistence\obj\Debug\net5.0\Petsitters.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Source\Repos\PetSitters2.0\Petsitters.Backend\Petsitters.Persistence\obj\Debug\net5.0\Petsitters.Persistence.AssemblyInfoInputs.cache
+C:\Users\User\Source\Repos\PetSitters2.0\Petsitters.Backend\Petsitters.Persistence\obj\Debug\net5.0\Petsitters.Persistence.AssemblyInfo.cs
+C:\Users\User\Source\Repos\PetSitters2.0\Petsitters.Backend\Petsitters.Persistence\obj\Debug\net5.0\Petsitters.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\User\Source\Repos\PetSitters2.0\Petsitters.Backend\Petsitters.Persistence\obj\Debug\net5.0\Petsitters.Persistence.csproj.CopyComplete
+C:\Users\User\Source\Repos\PetSitters2.0\Petsitters.Backend\Petsitters.Persistence\obj\Debug\net5.0\Petsitters.Persistence.dll
+C:\Users\User\Source\Repos\PetSitters2.0\Petsitters.Backend\Petsitters.Persistence\obj\Debug\net5.0\ref\Petsitters.Persistence.dll
+C:\Users\User\Source\Repos\PetSitters2.0\Petsitters.Backend\Petsitters.Persistence\obj\Debug\net5.0\Petsitters.Persistence.pdb

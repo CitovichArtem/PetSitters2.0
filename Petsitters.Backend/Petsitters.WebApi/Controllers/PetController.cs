@@ -48,8 +48,8 @@ namespace Petsitters.WebApi.Controllers
         {
             var command = _mapper.Map<CreatePetCommand>(createPetDto);
             command.UserId = UserId;
-            var noteId = await Mediator.Send(command);
-            return Ok(noteId);
+            var petId = await Mediator.Send(command);
+            return Ok(petId);
         }
 
         [HttpPut]
