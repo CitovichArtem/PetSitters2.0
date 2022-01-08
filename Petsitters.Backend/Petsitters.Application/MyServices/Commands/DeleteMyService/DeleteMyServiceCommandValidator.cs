@@ -1,13 +1,15 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using FluentValidation;
 
 namespace Petsitters.Application.MyServices.Commands.DeleteMyService
 {
-    public class DeleteMyServiceCommandValidator
+    public class DeleteMyServiceCommandValidator : AbstractValidator<DeleteMyServiceCommand>
     {
-        
+        public DeleteMyServiceCommandValidator()
+        {
+            RuleFor(deleteMyServiceCommand => deleteMyServiceCommand.Id).NotEqual(null);
+            RuleFor(deleteMyServiceCommand => deleteMyServiceCommand.UserId).NotEqual(null);
+            RuleFor(deleteMyServiceCommand => deleteMyServiceCommand.BidId).NotEqual(null);
+        }
     }
 }

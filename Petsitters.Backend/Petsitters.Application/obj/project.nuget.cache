@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "fT8PwiWQJMfHfKaeQS8rT9gbkBhIoLeKHA60r+NkeBJT7lu8dMcKfRPVr27ffNL/rLd6CSzmp89IYzDnLM1Sqg==",
+  "dgSpecHash": "WrmeL8oixoft55Dzy3PeEHPsE4GBpWMbA3g454+IKDtirgCjdZh4NMoRJ5BFzsx7q5QdIiOnjVvYFzUxvzAYaA==",
   "success": true,
   "projectFilePath": "C:\\Users\\User\\Source\\Repos\\PetSitters2.0\\Petsitters.Backend\\Petsitters.Application\\Petsitters.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\fluentvalidation\\10.3.6\\fluentvalidation.10.3.6.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\10.3.6\\fluentvalidation.dependencyinjectionextensions.10.3.6.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\9.0.0\\mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
