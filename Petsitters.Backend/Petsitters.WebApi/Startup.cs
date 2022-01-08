@@ -9,6 +9,7 @@ using Petsitters.Application;
 using Petsitters.Application.Common.Mappings;
 using Petsitters.Application.Interfaces;
 using Petsitters.Persistence;
+using Petsitters.WebApi.Middleware;
 
 namespace Petsitters.WebApi
 {
@@ -17,6 +18,7 @@ namespace Petsitters.WebApi
         public IConfiguration Configuration { get; }
 
         public Startup(IConfiguration configuration) => Configuration = configuration;
+
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddAutoMapper(config =>
@@ -47,6 +49,7 @@ namespace Petsitters.WebApi
                 app.UseDeveloperExceptionPage();
             }
 
+            app.UseCustomExceptionHandler();
             app.UseRouting();
             app.UseHttpsRedirection();
             app.UseCors("AllowAll");
