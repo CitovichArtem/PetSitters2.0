@@ -117,3 +117,12 @@ C:\Users\User\Source\Repos\PetSitters2.0\Petsitters.Backend\Petsitters.WebApi\ob
 C:\Users\User\Source\Repos\PetSitters2.0\Petsitters.Backend\Petsitters.WebApi\obj\Debug\net5.0\ref\Petsitters.WebApi.dll
 C:\Users\User\Source\Repos\PetSitters2.0\Petsitters.Backend\Petsitters.WebApi\obj\Debug\net5.0\Petsitters.WebApi.pdb
 C:\Users\User\Source\Repos\PetSitters2.0\Petsitters.Backend\Petsitters.WebApi\obj\Debug\net5.0\Petsitters.WebApi.genruntimeconfig.cache
+C:\Users\User\Source\Repos\PetSitters2.0\Petsitters.Backend\Petsitters.WebApi\bin\Debug\net5.0\FluentValidation.dll
+C:\Users\User\Source\Repos\PetSitters2.0\Petsitters.Backend\Petsitters.WebApi\bin\Debug\net5.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\User\Source\Repos\PetSitters2.0\Petsitters.Backend\Petsitters.WebApi\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\User\Source\Repos\PetSitters2.0\Petsitters.Backend\Petsitters.WebApi\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\User\Source\Repos\PetSitters2.0\Petsitters.Backend\Petsitters.WebApi\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\User\Source\Repos\PetSitters2.0\Petsitters.Backend\Petsitters.WebApi\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\User\Source\Repos\PetSitters2.0\Petsitters.Backend\Petsitters.WebApi\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\User\Source\Repos\PetSitters2.0\Petsitters.Backend\Petsitters.WebApi\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\User\Source\Repos\PetSitters2.0\Petsitters.Backend\Petsitters.WebApi\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll

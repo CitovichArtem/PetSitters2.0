@@ -4,6 +4,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Petsitters.Application.Bids.Queries.GetBidList;
 using Petsitters.Application.Bids.Commands.CreateBid;
+using Microsoft.AspNetCore.Authorization;
 
 using Petsitters.WebApi.Models.Bid; 
 
@@ -19,6 +20,7 @@ namespace Petsitters.WebApi.Controllers
 
 
         [HttpGet]
+        [Authorize]
         public async Task<ActionResult<BidListVm>> GetAll()
         {
             var query = new GetBidListQuery
@@ -31,6 +33,7 @@ namespace Petsitters.WebApi.Controllers
 
 
         [HttpPost]
+        [Authorize]
         public async Task<ActionResult<int>> Create([FromBody] CreateBidDto createBidDto)
         {
             var command = _mapper.Map<CreateBidCommand>(createBidDto);

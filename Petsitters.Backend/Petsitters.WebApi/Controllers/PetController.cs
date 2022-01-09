@@ -7,8 +7,8 @@ using Petsitters.Application.Pets.Queries.GetPetList;
 using Petsitters.Application.Pets.Commands.CreatePet;
 using Petsitters.Application.Pets.Commands.UpdatePet;
 using Petsitters.Application.Pets.Commands.DeletePet;
-using Petsitters.WebApi.Models.Pet; 
-
+using Petsitters.WebApi.Models.Pet;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Petsitters.WebApi.Controllers
 {
@@ -21,6 +21,7 @@ namespace Petsitters.WebApi.Controllers
 
 
         [HttpGet]
+        [Authorize]
         public async Task<ActionResult<PetListVm>> GetAll()
         {
             var query = new GetPetListQuery
@@ -32,6 +33,7 @@ namespace Petsitters.WebApi.Controllers
         }
 
         [HttpGet("{id}")]
+        [Authorize]
         public async Task<ActionResult<PetDetailsVm>> Get(int id)
         {
             var query = new GetPetDetailsQuery
@@ -44,6 +46,7 @@ namespace Petsitters.WebApi.Controllers
         }
 
         [HttpPost]
+        [Authorize]
         public async Task<ActionResult<int>> Create([FromBody] CreatePetDto createPetDto)
         {
             var command = _mapper.Map<CreatePetCommand>(createPetDto);
@@ -53,6 +56,7 @@ namespace Petsitters.WebApi.Controllers
         }
 
         [HttpPut]
+        [Authorize]
         public async Task<IActionResult> Update([FromBody] UpdatePetDto updatePetDto)
         {
             var command = _mapper.Map<UpdatePetCommand>(updatePetDto);
@@ -62,6 +66,7 @@ namespace Petsitters.WebApi.Controllers
         }
 
         [HttpDelete("{id}")]
+        [Authorize]
         public async Task<IActionResult> Delete(int id)
         {
             var command = new DeletePetCommand

@@ -4,8 +4,8 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Petsitters.Application.Feedbacks.Queries.GetFeedbackList;
 using Petsitters.Application.Feedbacks.Commands.CreateFeedback;
-using Petsitters.WebApi.Models.Feedback; 
-
+using Petsitters.WebApi.Models.Feedback;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Petsitters.WebApi.Controllers
 {
@@ -18,6 +18,7 @@ namespace Petsitters.WebApi.Controllers
 
 
         [HttpGet]
+        [Authorize]
         public async Task<ActionResult<FeedbackListVm>> GetAll()
         {
             var query = new GetFeedbackListQuery
@@ -30,6 +31,7 @@ namespace Petsitters.WebApi.Controllers
 
 
         [HttpPost]
+        [Authorize]
         public async Task<ActionResult<int>> Create([FromBody] CreateFeedbackDto createFeedbackDto)
         {
             var command = _mapper.Map<CreateFeedbackCommand>(createFeedbackDto);

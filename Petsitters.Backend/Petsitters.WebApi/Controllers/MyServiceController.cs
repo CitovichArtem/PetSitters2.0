@@ -7,8 +7,8 @@ using Petsitters.Application.MyServices.Queries.GetMyServiceList;
 using Petsitters.Application.MyServices.Commands.CreateMyService;
 using Petsitters.Application.MyServices.Commands.UpdateMyService;
 using Petsitters.Application.MyServices.Commands.DeleteMyService;
-using Petsitters.WebApi.Models.MyService; 
-
+using Petsitters.WebApi.Models.MyService;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Petsitters.WebApi.Controllers
 {
@@ -21,6 +21,7 @@ namespace Petsitters.WebApi.Controllers
 
 
         [HttpGet]
+        [Authorize]
         public async Task<ActionResult<MyServiceListVm>> GetAll()
         {
             var query = new GetMyServiceListQuery
@@ -32,6 +33,7 @@ namespace Petsitters.WebApi.Controllers
         }
 
         [HttpGet("{id}")]
+        [Authorize]
         public async Task<ActionResult<MyServiceDetailsVm>> Get(int id)
         {
             var query = new GetMyServiceDetailsQuery
@@ -44,6 +46,7 @@ namespace Petsitters.WebApi.Controllers
         }
 
         [HttpPost]
+        [Authorize]
         public async Task<ActionResult<int>> Create([FromBody] CreateMyServiceDto createMyServiceDto)
         {
             var command = _mapper.Map<CreateMyServiceCommand>(createMyServiceDto);
@@ -53,6 +56,7 @@ namespace Petsitters.WebApi.Controllers
         }
 
         [HttpPut]
+        [Authorize]
         public async Task<IActionResult> Update([FromBody] UpdateMyServiceDto updateMyServiceDto)
         {
             var command = _mapper.Map<UpdateMyServiceCommand>(updateMyServiceDto);
@@ -62,6 +66,7 @@ namespace Petsitters.WebApi.Controllers
         }
 
         [HttpDelete("{id}")]
+        [Authorize]
         public async Task<IActionResult> Delete(int id)
         {
             var command = new DeleteMyServiceCommand

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\source\\repos\\Petsitters.Identity\\Petsitters.Identity\\Petsitters.Identity.csproj": {}
+    "C:\\Users\\User\\source\\repos\\PetSitters2.0\\Petsitters.Identity\\Petsitters.Identity\\Petsitters.Identity.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\source\\repos\\Petsitters.Identity\\Petsitters.Identity\\Petsitters.Identity.csproj": {
+    "C:\\Users\\User\\source\\repos\\PetSitters2.0\\Petsitters.Identity\\Petsitters.Identity\\Petsitters.Identity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\source\\repos\\Petsitters.Identity\\Petsitters.Identity\\Petsitters.Identity.csproj",
+        "projectUniqueName": "C:\\Users\\User\\source\\repos\\PetSitters2.0\\Petsitters.Identity\\Petsitters.Identity\\Petsitters.Identity.csproj",
         "projectName": "Petsitters.Identity",
-        "projectPath": "C:\\Users\\User\\source\\repos\\Petsitters.Identity\\Petsitters.Identity\\Petsitters.Identity.csproj",
+        "projectPath": "C:\\Users\\User\\source\\repos\\PetSitters2.0\\Petsitters.Identity\\Petsitters.Identity\\Petsitters.Identity.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\source\\repos\\Petsitters.Identity\\Petsitters.Identity\\obj\\",
+        "outputPath": "C:\\Users\\User\\source\\repos\\PetSitters2.0\\Petsitters.Identity\\Petsitters.Identity\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
