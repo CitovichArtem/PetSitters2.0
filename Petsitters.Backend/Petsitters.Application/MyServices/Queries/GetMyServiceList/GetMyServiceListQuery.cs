@@ -9,7 +9,7 @@ namespace Petsitters.Application.MyServices.Queries.GetMyServiceList
 {
     public class GetMyServiceListQuery : IRequest<MyServiceListVm>
     {
-        public int UserId { get; set; }
-        public int BidId { get; set; }
+        public Guid UserId { get; set; }
+        public Guid BidId { get; set; }
     }
 }

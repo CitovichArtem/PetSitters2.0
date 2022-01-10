@@ -7,7 +7,7 @@ namespace Petsitters.Application.Feedbacks.Queries.GetFeedbackList
 {
     public class FeedbackLookupDto : IMapWith<Feedback>
     {
-        public int Id { get; set; }
+        public Guid Id { get; set; }
         public short Mark { get; set; }
         public string Text { get; set; }
 

@@ -5,7 +5,7 @@ namespace Petsitters.Application.Pets.Commands.DeletePet
 {
     public class DeletePetCommand : IRequest
     {
-        public int UserId { get; set; }
-        public int Id { get; set; }
+        public Guid UserId { get; set; }
+        public Guid Id { get; set; }
     }
 }

@@ -5,7 +5,7 @@ namespace Petsitters.Application.Pets.Queries.GetPetDetails
 {
     public class GetPetDetailsQuery : IRequest<PetDetailsVm>
     {
-        public int UserId { get; set; }
-        public int Id { get; set; }
+        public Guid UserId { get; set; }
+        public Guid Id { get; set; }
     }
 }

@@ -7,8 +7,8 @@ namespace Petsitters.Application.Bids.Queries.GetBidList
     {
         public GetBidListQueryValidator()
         {
-            RuleFor(bid => bid.MyServiceId).NotEqual(0);
-            RuleFor(bid => bid.PetId).NotEqual(0);
+            RuleFor(bid => bid.MyServiceId).NotEqual(Guid.Empty);
+            RuleFor(bid => bid.PetId).NotEqual(Guid.Empty);
         }
     }
 }

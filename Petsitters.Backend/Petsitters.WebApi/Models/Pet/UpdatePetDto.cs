@@ -1,12 +1,13 @@
 ﻿using AutoMapper;
 using Petsitters.Application.Common.Mappings;
 using Petsitters.Application.Pets.Commands.UpdatePet;
+using System;
 
 namespace Petsitters.WebApi.Models.Pet
 {
     public class UpdatePetDto : IMapWith<UpdatePetCommand>
     {
-        public int Id { get; set; }
+        public Guid Id { get; set; }
         public string Name { get; set; }
         public int Age { get; set; }
 

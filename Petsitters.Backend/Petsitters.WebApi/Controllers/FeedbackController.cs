@@ -32,7 +32,7 @@ namespace Petsitters.WebApi.Controllers
 
         [HttpPost]
         [Authorize]
-        public async Task<ActionResult<int>> Create([FromBody] CreateFeedbackDto createFeedbackDto)
+        public async Task<ActionResult<Guid>> Create([FromBody] CreateFeedbackDto createFeedbackDto)
         {
             var command = _mapper.Map<CreateFeedbackCommand>(createFeedbackDto);
             command.OwnerUserId = UserId;

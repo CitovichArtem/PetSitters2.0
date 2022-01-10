@@ -12,9 +12,9 @@ namespace Petsitters.Application.MyServices.Commands.CreateMyService
             RuleFor(createMyServiceCommand =>
                 createMyServiceCommand.Details).NotEmpty().MaximumLength(1000);
             RuleFor(createMyServiceCommand =>
-                createMyServiceCommand.UserId).NotEqual(null);
+                createMyServiceCommand.UserId).NotEqual(Guid.Empty);
             RuleFor(createMyServiceCommand =>
-                createMyServiceCommand.BidId).NotEqual(null);
+                createMyServiceCommand.BidId).NotEqual(Guid.Empty);
         }
     }
 }

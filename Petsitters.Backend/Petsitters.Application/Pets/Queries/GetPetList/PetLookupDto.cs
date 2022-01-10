@@ -7,7 +7,7 @@ namespace Petsitters.Application.Pets.Queries.GetPetList
 {
     public class PetLookupDto : IMapWith<Pet>
     {
-        public int Id { get; set; }
+        public Guid Id { get; set; }
         public string Name { get; set; }
 
         public void Mapping(Profile profile)

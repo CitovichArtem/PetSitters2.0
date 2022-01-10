@@ -8,12 +8,12 @@ using System;
 namespace Petsitters.Application.Bids.Commands.CreateBid
 {
     public class CreateBidCommandHandler
-        : IRequestHandler<CreateBidCommand, int>
+        : IRequestHandler<CreateBidCommand, Guid>
     {
         private readonly IAppDbContext _dbContext;
         public CreateBidCommandHandler(IAppDbContext dbContext) =>
             _dbContext = dbContext;
-        public async Task<int> Handle(CreateBidCommand request,
+        public async Task<Guid> Handle(CreateBidCommand request,
             CancellationToken cancellationToken)
         {
             var bid = new Bid
@@ -23,7 +23,7 @@ namespace Petsitters.Application.Bids.Commands.CreateBid
                 MyServiceId = request.MyServiceID,
                 CreationDate = DateTime.Now,
                 EditDate = null,
-                Id = new int()
+                Id = Guid.NewGuid()
             };
 
             await _dbContext.Bids.AddAsync(bid, cancellationToken);

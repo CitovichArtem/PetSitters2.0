@@ -1,11 +1,12 @@
 ﻿using MediatR;
+using System;
 
 namespace Petsitters.Application.Bids.Commands.CreateBid
 {
-    public class CreateBidCommand : IRequest<int>
+    public class CreateBidCommand : IRequest<Guid>
     {
-        public int PetId { get; set; }
-        public int MyServiceID { get; set; }
+        public Guid PetId { get; set; }
+        public Guid MyServiceID { get; set; }
         public string Name { get; set; }
 
 

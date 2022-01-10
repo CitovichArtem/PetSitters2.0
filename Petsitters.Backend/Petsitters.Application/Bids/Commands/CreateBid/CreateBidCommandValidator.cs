@@ -10,9 +10,9 @@ namespace Petsitters.Application.Bids.Commands.CreateBid
             RuleFor(createBidCommand =>
                 createBidCommand.Name).NotEmpty().MaximumLength(250);
             RuleFor(createBidCommand =>
-                createBidCommand.MyServiceID).NotEqual(null);
+                createBidCommand.MyServiceID).NotEqual(Guid.Empty);
             RuleFor(createBidCommand =>
-                createBidCommand.PetId).NotEqual(null);
+                createBidCommand.PetId).NotEqual(Guid.Empty);
         }
     }
 }

@@ -7,9 +7,9 @@ namespace Petsitters.Application.MyServices.Commands.DeleteMyService
     {
         public DeleteMyServiceCommandValidator()
         {
-            RuleFor(deleteMyServiceCommand => deleteMyServiceCommand.Id).NotEqual(null);
-            RuleFor(deleteMyServiceCommand => deleteMyServiceCommand.UserId).NotEqual(null);
-            RuleFor(deleteMyServiceCommand => deleteMyServiceCommand.BidId).NotEqual(null);
+            RuleFor(deleteMyServiceCommand => deleteMyServiceCommand.Id).NotEqual(Guid.Empty);
+            RuleFor(deleteMyServiceCommand => deleteMyServiceCommand.UserId).NotEqual(Guid.Empty);
+            RuleFor(deleteMyServiceCommand => deleteMyServiceCommand.BidId).NotEqual(Guid.Empty);
         }
     }
 }

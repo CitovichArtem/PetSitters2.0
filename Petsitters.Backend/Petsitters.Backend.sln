@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31729.503
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31919.166
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{6CC691B0-CB80-46F4-A540-708EEB77BCD2}"
 EndProject
@@ -13,11 +13,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{2AEEC2E9
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Petsitters.Domain", "Petsitters.Domain\Petsitters.Domain.csproj", "{9AF7E265-1563-4CB8-96D5-7588B6C359C9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Petsitters.Application", "Petsitters.Application\Petsitters.Application.csproj", "{A66FBA8D-0B4F-44AA-BA7C-9470B66FC4A9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Petsitters.Application", "Petsitters.Application\Petsitters.Application.csproj", "{A66FBA8D-0B4F-44AA-BA7C-9470B66FC4A9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Petsitters.Persistence", "Petsitters.Persistence\Petsitters.Persistence.csproj", "{0588D117-0FAA-4FBF-BA53-900DDADAA1B5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Petsitters.Persistence", "Petsitters.Persistence\Petsitters.Persistence.csproj", "{0588D117-0FAA-4FBF-BA53-900DDADAA1B5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Petsitters.WebApi", "Petsitters.WebApi\Petsitters.WebApi.csproj", "{0E624223-55B1-4671-B368-B9CD4BDEE383}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Petsitters.WebApi", "Petsitters.WebApi\Petsitters.WebApi.csproj", "{0E624223-55B1-4671-B368-B9CD4BDEE383}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Petsitters.Tests", "Petsitters.Tests\Petsitters.Tests.csproj", "{168239A3-0999-4362-89BA-BCA42C37FF54}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +43,10 @@ Global
 		{0E624223-55B1-4671-B368-B9CD4BDEE383}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0E624223-55B1-4671-B368-B9CD4BDEE383}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0E624223-55B1-4671-B368-B9CD4BDEE383}.Release|Any CPU.Build.0 = Release|Any CPU
+		{168239A3-0999-4362-89BA-BCA42C37FF54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{168239A3-0999-4362-89BA-BCA42C37FF54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{168239A3-0999-4362-89BA-BCA42C37FF54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{168239A3-0999-4362-89BA-BCA42C37FF54}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -50,6 +56,7 @@ Global
 		{A66FBA8D-0B4F-44AA-BA7C-9470B66FC4A9} = {6CC691B0-CB80-46F4-A540-708EEB77BCD2}
 		{0588D117-0FAA-4FBF-BA53-900DDADAA1B5} = {CFF22C9A-093B-48DC-A2CE-7F0AAFB59A76}
 		{0E624223-55B1-4671-B368-B9CD4BDEE383} = {72B2E693-519A-4DEF-A8D5-BA8CCD64A035}
+		{168239A3-0999-4362-89BA-BCA42C37FF54} = {2AEEC2E9-C4CF-4171-9A96-E894950A231C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7AA30FB9-2AC8-4446-B61E-C98D297EBC75}

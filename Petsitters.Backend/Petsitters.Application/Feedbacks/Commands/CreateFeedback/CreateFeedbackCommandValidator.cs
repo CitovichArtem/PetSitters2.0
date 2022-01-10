@@ -14,9 +14,9 @@ namespace Petsitters.Application.Feedbacks.Commands.CreateFeedback
             RuleFor(createFeedbackCommand =>
                 createFeedbackCommand.Mark).LessThan(10);
             RuleFor(createFeedbackCommand =>
-                createFeedbackCommand.WorkerUserId).NotEqual(null);
+                createFeedbackCommand.WorkerUserId).NotEqual(Guid.Empty);
             RuleFor(createFeedbackCommand =>
-                createFeedbackCommand.OwnerUserId).NotEqual(null);
+                createFeedbackCommand.OwnerUserId).NotEqual(Guid.Empty);
         }
     }
 }

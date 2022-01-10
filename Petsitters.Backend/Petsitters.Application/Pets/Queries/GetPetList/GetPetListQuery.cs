@@ -5,6 +5,6 @@ namespace Petsitters.Application.Pets.Queries.GetPetList
 {
     public class GetPetListQuery : IRequest<PetListVm>
     {
-        public int UserId { get; set; }
+        public Guid UserId { get; set; }
     }
 }

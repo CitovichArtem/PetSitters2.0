@@ -7,8 +7,8 @@ namespace Petsitters.Application.MyServices.Queries.GetMyServiceList
     {
         public GetMyServiceListQueryValidator()
         {
-            RuleFor(myservice => myservice.UserId).NotEqual(0);
-            RuleFor(myservice => myservice.BidId).NotEqual(0);
+            RuleFor(myservice => myservice.UserId).NotEqual(Guid.Empty);
+            RuleFor(myservice => myservice.BidId).NotEqual(Guid.Empty);
         }
     }
 }

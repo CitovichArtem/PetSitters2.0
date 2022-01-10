@@ -12,11 +12,11 @@ namespace Petsitters.Application.MyServices.Commands.UpdateMyService
             RuleFor(updateMyServiceCommand =>
                 updateMyServiceCommand.Details).NotEmpty().MaximumLength(1000);
             RuleFor(updateMyServiceCommand =>
-                updateMyServiceCommand.Id).NotEqual(0);
+                updateMyServiceCommand.Id).NotEqual(Guid.Empty);
             RuleFor(updateMyServiceCommand =>
-               updateMyServiceCommand.UserId).NotEqual(0);
+               updateMyServiceCommand.UserId).NotEqual(Guid.Empty);
             RuleFor(updateMyServiceCommand =>
-               updateMyServiceCommand.BidId).NotEqual(0);
+               updateMyServiceCommand.BidId).NotEqual(Guid.Empty);
 
         }
     }

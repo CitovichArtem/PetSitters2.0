@@ -34,7 +34,7 @@ namespace Petsitters.WebApi.Controllers
 
         [HttpGet("{id}")]
         [Authorize]
-        public async Task<ActionResult<MyServiceDetailsVm>> Get(int id)
+        public async Task<ActionResult<MyServiceDetailsVm>> Get(Guid id)
         {
             var query = new GetMyServiceDetailsQuery
             {
@@ -47,7 +47,7 @@ namespace Petsitters.WebApi.Controllers
 
         [HttpPost]
         [Authorize]
-        public async Task<ActionResult<int>> Create([FromBody] CreateMyServiceDto createMyServiceDto)
+        public async Task<ActionResult<Guid>> Create([FromBody] CreateMyServiceDto createMyServiceDto)
         {
             var command = _mapper.Map<CreateMyServiceCommand>(createMyServiceDto);
             command.UserId = UserId;
@@ -67,7 +67,7 @@ namespace Petsitters.WebApi.Controllers
 
         [HttpDelete("{id}")]
         [Authorize]
-        public async Task<IActionResult> Delete(int id)
+        public async Task<IActionResult> Delete(Guid id)
         {
             var command = new DeleteMyServiceCommand
             {

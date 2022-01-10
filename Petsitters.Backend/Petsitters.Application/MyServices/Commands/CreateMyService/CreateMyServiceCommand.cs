@@ -7,10 +7,10 @@ using MediatR;
 
 namespace Petsitters.Application.MyServices.Commands.CreateMyService
 {
-    public class CreateMyServiceCommand : IRequest<int>
+    public class CreateMyServiceCommand : IRequest<Guid>
     {
-        public int UserId { get; set; }
-        public int BidId { get; set; }
+        public Guid UserId { get; set; }
+        public Guid BidId { get; set; }
         public string Name { get; set; }
         public string Details { get; set; }
     }

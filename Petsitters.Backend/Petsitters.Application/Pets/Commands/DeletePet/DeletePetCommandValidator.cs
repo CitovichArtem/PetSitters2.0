@@ -7,8 +7,8 @@ namespace Petsitters.Application.Pets.Commands.DeletePet
     {
         public DeletePetCommandValidator()
         {
-            RuleFor(deletePetCommand => deletePetCommand.Id).NotEqual(null);
-            RuleFor(deletePetCommand => deletePetCommand.UserId).NotEqual(null);
+            RuleFor(deletePetCommand => deletePetCommand.Id).NotEqual(Guid.Empty);
+            RuleFor(deletePetCommand => deletePetCommand.UserId).NotEqual(Guid.Empty);
         }
     }
 }

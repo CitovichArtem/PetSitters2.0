@@ -5,7 +5,7 @@ namespace Petsitters.Application.Bids.Queries.GetBidList
 {
     public class GetBidListQuery : IRequest<BidListVm>
     {
-        public int PetId { get; set; }
-        public int MyServiceId { get; set; }
+        public Guid PetId { get; set; }
+        public Guid MyServiceId { get; set; }
     }
 }

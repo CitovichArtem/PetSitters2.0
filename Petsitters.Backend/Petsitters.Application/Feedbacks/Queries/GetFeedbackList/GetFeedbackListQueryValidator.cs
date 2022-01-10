@@ -7,8 +7,8 @@ namespace Petsitters.Application.Feedbacks.Queries.GetFeedbackList
     {
         public GetFeedbackListQueryValidator()
         {
-            RuleFor(feedback => feedback.OwnerUserId).NotEqual(0);
-            RuleFor(feedback => feedback.WorkerUserId).NotEqual(0);
+            RuleFor(feedback => feedback.OwnerUserId).NotEqual(Guid.Empty);
+            RuleFor(feedback => feedback.WorkerUserId).NotEqual(Guid.Empty);
         }
     }
 }

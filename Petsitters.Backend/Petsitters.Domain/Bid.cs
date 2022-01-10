@@ -8,12 +8,12 @@ namespace Petsitters.Domain
     {
         [Key]
         [ForeignKey("MyService")]
-        public int Id { get; set; }
+        public Guid Id { get; set; }
         public string Name { get; set; }
         public DateTime CreationDate { get; set; }
         public DateTime? EditDate { get; set; }
-        public int MyServiceId { get; set; }
-        public int PetId { get; set; }
+        public Guid MyServiceId { get; set; }
+        public Guid PetId { get; set; }
         public MyService MyService { get; set; }
         public Pet Pet { get; set; }
 

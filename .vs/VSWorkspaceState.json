@@ -1,8 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Petsitters.Backend"
+    "\\Petsitters.Backend",
+    "\\Petsitters.Backend\\Petsitters.WebApi",
+    "\\Petsitters.Backend\\Petsitters.WebApi\\Middleware"
   ],
-  "SelectedNode": "\\Petsitters.Backend\\Petsitters.Backend.sln",
+  "SelectedNode": "\\Petsitters.Backend\\Petsitters.WebApi\\Middleware\\CustomExceptionHandlerMiddleware.cs",
   "PreviewInSolutionExplorer": false
 }

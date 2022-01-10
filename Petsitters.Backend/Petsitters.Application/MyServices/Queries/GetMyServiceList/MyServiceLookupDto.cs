@@ -7,7 +7,7 @@ namespace Petsitters.Application.MyServices.Queries.GetMyServiceList
 {
     public class MyServiceLookupDto : IMapWith<MyService>
     {
-        public int Id { get; set; }
+        public Guid Id { get; set; }
         public string Name { get; set; }
 
         public void Mapping(Profile profile)

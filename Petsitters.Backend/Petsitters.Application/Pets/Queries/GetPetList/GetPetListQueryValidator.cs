@@ -7,7 +7,7 @@ namespace Petsitters.Application.Pets.Queries.GetPetList
     {
         public GetPetListQueryValidator()
         {
-            RuleFor(pet => pet.UserId).NotEqual(0);
+            RuleFor(pet => pet.UserId).NotEqual(Guid.Empty);
         }
     }
 }

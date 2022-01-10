@@ -7,7 +7,7 @@ namespace Petsitters.Application.Bids.Queries.GetBidList
 {
     public class BidLookupDto : IMapWith<Bid>
     {
-        public int Id { get; set; }
+        public Guid Id { get; set; }
         public string Name { get; set; }
 
         public void Mapping(Profile profile)
