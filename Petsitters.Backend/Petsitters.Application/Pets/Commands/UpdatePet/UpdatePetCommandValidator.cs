@@ -13,6 +13,8 @@ namespace Petsitters.Application.Pets.Commands.UpdatePet
                 updatePetCommand.UserId).NotEqual(null);
             RuleFor(updatePetCommand =>
                 updatePetCommand.Id).NotEqual(null);
+            RuleFor(updatePetCommand =>
+                updatePetCommand.BidId).NotEqual(null);
         }
     }
 }

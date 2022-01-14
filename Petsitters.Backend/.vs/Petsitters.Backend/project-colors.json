@@ -20,7 +20,12 @@
       "ProjectGuid": "9af7e265-1563-4cb8-96d5-7588b6c359c9",
       "DisplayName": "Petsitters.Domain",
       "ColorIndex": 3
+    },
+    "168239a3-0999-4362-89ba-bca42c37ff54": {
+      "ProjectGuid": "168239a3-0999-4362-89ba-bca42c37ff54",
+      "DisplayName": "Petsitters.Tests",
+      "ColorIndex": 4
     }
   },
-  "NextColorIndex": 4
+  "NextColorIndex": 5
 }

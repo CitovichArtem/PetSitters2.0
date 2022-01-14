@@ -22,7 +22,7 @@ namespace Petsitters.Tests.Pets.Commands
             await handler.Handle(new DeletePetCommand
             {
                 Id = PetsittersContextFactory.PetIdForDelete,
-                UserId = PetsittersContextFactory.UserAId
+                UserId = PetsittersContextFactory.UserAId,
             }, CancellationToken.None);
 
             // Assert

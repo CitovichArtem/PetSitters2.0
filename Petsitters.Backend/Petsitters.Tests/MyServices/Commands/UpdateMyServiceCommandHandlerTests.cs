@@ -4,46 +4,46 @@ using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using Xunit;
 using Petsitters.Application.Common.Exceptions;
-using Petsitters.Application.Pets.Commands.UpdatePet;
+using Petsitters.Application.MyServices.Commands.UpdateMyService;
 using Petsitters.Tests.Common;
 
-namespace Petsitters.Tests.Pets.Commands
+namespace Petsitters.Tests.MyServices.Commands
 {
-    public class UpdatePetCommandHandlerTests : TestCommandBase
+    public class UpdateMyServiceCommandHandlerTests : TestCommandBase
     {
         [Fact]
-        public async Task UpdatePetCommandHandler_Success()
+        public async Task UpdateMyServiceCommandHandler_Success()
         {
             // Arrange
-            var handler = new UpdatePetCommandHandler(Context);
+            var handler = new UpdateMyServiceCommandHandler(Context);
             var updatedName = "new name";
 
             // Act
-            await handler.Handle(new UpdatePetCommand
+            await handler.Handle(new UpdateMyServiceCommand
             {
-                Id = PetsittersContextFactory.PetIdForUpdate,
+                Id = PetsittersContextFactory.MyServiceIdForUpdate,
                 UserId = PetsittersContextFactory.UserBId,
                 BidId = PetsittersContextFactory.BidBId,
                 Name = updatedName
             }, CancellationToken.None);
 
             // Assert
-            Assert.NotNull(await Context.Pets.SingleOrDefaultAsync(pet =>
-                pet.Id == PetsittersContextFactory.PetIdForUpdate &&
-                pet.Name == updatedName));
+            Assert.NotNull(await Context.MyServices.SingleOrDefaultAsync(myservice =>
+                myservice.Id == PetsittersContextFactory.MyServiceIdForUpdate &&
+                myservice.Name == updatedName));
         }
 
         [Fact]
-        public async Task UpdatePetCommandHandler_FailOnWrongId()
+        public async Task UpdateMyServiceCommandHandler_FailOnWrongId()
         {
             // Arrange
-            var handler = new UpdatePetCommandHandler(Context);
+            var handler = new UpdateMyServiceCommandHandler(Context);
 
             // Act
             // Assert
             await Assert.ThrowsAsync<NotFoundException>(async () =>
                 await handler.Handle(
-                    new UpdatePetCommand
+                    new UpdateMyServiceCommand
                     {
                         Id = Guid.NewGuid(),
                         UserId = PetsittersContextFactory.UserAId,
@@ -53,19 +53,19 @@ namespace Petsitters.Tests.Pets.Commands
         }
 
         [Fact]
-        public async Task UpdatePetCommandHandler_FailOnWrongUserId()
+        public async Task UpdateMyServiceCommandHandler_FailOnWrongUserId()
         {
             // Arrange
-            var handler = new UpdatePetCommandHandler(Context);
+            var handler = new UpdateMyServiceCommandHandler(Context);
 
             // Act
             // Assert
             await Assert.ThrowsAsync<NotFoundException>(async () =>
             {
                 await handler.Handle(
-                    new UpdatePetCommand
+                    new UpdateMyServiceCommand
                     {
-                        Id = PetsittersContextFactory.PetIdForUpdate,
+                        Id = PetsittersContextFactory.MyServiceIdForUpdate,
                         UserId = PetsittersContextFactory.UserAId,
                         BidId = PetsittersContextFactory.BidAId
                     },

@@ -21,7 +21,8 @@ namespace Petsitters.Tests.Pets.Commands
                 new CreatePetCommand
                 {
                     Name = petName,
-                    UserId = PetsittersContextFactory.UserAId
+                    UserId = PetsittersContextFactory.UserAId,
+                    BidId = PetsittersContextFactory.BidAId
                 },
                 CancellationToken.None);
 

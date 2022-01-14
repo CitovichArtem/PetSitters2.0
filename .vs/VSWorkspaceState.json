@@ -5,6 +5,6 @@
     "\\Petsitters.Backend\\Petsitters.WebApi",
     "\\Petsitters.Backend\\Petsitters.WebApi\\Middleware"
   ],
-  "SelectedNode": "\\Petsitters.Backend\\Petsitters.WebApi\\Middleware\\CustomExceptionHandlerMiddleware.cs",
+  "SelectedNode": "\\Petsitters.Backend\\Petsitters.WebApi\\Startup.cs",
   "PreviewInSolutionExplorer": false
 }
